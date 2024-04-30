@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="row vh-100 g-0">
+        <div class="col-lg-6">
+            <div class="row justify-content-center h-100 g-100 px-4 px-sm-0">
+                <div class="col col-sm-6 col-lg-7 col-xl-6">
+                    <div class="d-flex mb-4 justify-content-center">
+                        <img src="IMG_20240313_141307.jpg" alt="" width="250">
+                    </div>
+                    <div class="text-center mb-5">
+                        <h1>Welcome back!</h1>
+                        <p class="f"> Login to access all your data</p>
+                    </div>
+                    <form>
+                    <div class="form">
+                        <div class="in">
+                            <div>
+                                <label>Email Address</label>
+                                <input id="email" type="text" placeholder="Enter your email address" class="form-control form-control-lg fs-6">
+                            </div>
+                            <div class="password">
+                                <label>Password</label>
+                                <input id="password" type="password" placeholder="Enter your password" class="form-control form-control-lg fs-6">
+                                <button><i class="fa fa-eye-slash" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bbt">
+                        <button onclick="login()">Log in</button>
+                    </div> 
+                </form>
+                <div class="container justify-content-center" style="margin-left: 60px;">
+                    <a href="restpass.html" style="color: #c39126; text-decoration: none;">Forgotten&nbsp;password?</a><br>
+                </div>
+                <div class="hrr">
+                    <span class="line"></span>
+                    <p>or</p>
+                    <span class="line"></span>
+                </div>
+                <div class="bl">
+                <a href="register.html"><button> Create new account</button></a> 
+            </div>            
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 position-relative ">
+            <div class="image">
+                <img src="pexels-diego-f-parra-15188081.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

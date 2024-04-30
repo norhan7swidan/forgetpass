@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.image img {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover;
+}
+.image:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.form {
+    width:100%; 
+    margin-top: -20px;
+    align-items: center;
+    justify-content: center;
+}
+ h1 {
+    font-weight: bold;
+    margin: 5px;
+}
+.in i {
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    width: 30px;
+    justify-content: center;
+    vertical-align: text-top;
+    top: -25px;
+    right: 1px;
+}
+.in input {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    font-weight: 350;
+    border: 1px solid #c39126;
+    font-size: 16px;
+    background: transparent;
+}
+::placeholder {
+    color: #777;
+}
+.f {
+    color: #edb500;
+    font-weight: 25;
+    margin: 2px;
+}
+label {
+    font-weight: 150;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+}
+.password {
+    border-radius: 20px;
+    position: relative;
+}
+.password button {
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    width: 30px;
+    bottom: 0.2px;
+    right: 7px;
+}
+.bbt {
+    width: 99%;
+    padding: 10px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #edb500;
+    font-size: 18px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #c39126;
+    margin: 10px 0;
+}
+.bl{
+    width:300px;
+    padding: 10px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #c39126;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color:white;
+    margin: 10px 0;
+    margin-left:10px;
+}
+.bl button {
+    background-color:white;
+    color:#c39126;
+    outline: none;
+    border: none;
+}
+.bbt button {
+    background-color: #c39126;
+    color: white;
+    outline: none;
+    border: none;
+}
+.hrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.hrr p{
+    margin:0 10px ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.line{
+    width:180px;
+    height: 1px;
+    background-color: #000000;
+}
+.co button {
+    border-color: #c39126;
+    font-weight: 400;
+    text-align: center;
+    background-color: white;
+}
